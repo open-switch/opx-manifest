@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest>
+  <remote name="opx" fetch="https://github.com/open-switch" revision="master" />
+  <default remote="opx" sync-j="4"/>
+  
+  <!-- The following section is for infrastructure and libraries-->
+  <project path="opx-logging" name="opx-logging" />
+  <project path="opx-common-utils" name="opx-common-utils" />
+  <project path="opx-cps" name="opx-cps" />
+
+  <!-- The following section is for API model definitions -->
+  <project path="opx-base-model" name="opx-base-model" />
+
+  <!-- The following section is for all networking related functions including ACLs, QoS, etc.. -->
+  <project path="opx-nas-common" name="opx-nas-common" />
+</manifest>
+
