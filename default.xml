@@ -38,7 +38,7 @@
   <project path="opx-sai-vm" name="opx-sai-vm" remote="stash"/>
 
   <!-- The following section is for platform service configuration -->
-  <project path="opx-pas" name="opx-pas" remote="stash"/>
+  <project path="opx-pas" name="opx-pas"/>
 
   <!-- SDI -->
   <project path="opx-sdi-api" name="opx-sdi-api"/>
