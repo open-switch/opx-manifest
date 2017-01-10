@@ -35,7 +35,7 @@
   <project path="opx-sai-api" name="opx-sai-api"/>
   <project path="opx-sai-common" name="opx-sai-common"/>
   <project path="opx-sai-common-utils" name="opx-sai-common-utils"/>
-  <project path="opx-sai-vm" name="opx-sai-vm" remote="stash"/>
+  <project path="opx-sai-vm" name="opx-sai-vm"/>
 
   <!-- The following section is for platform service configuration -->
   <project path="opx-pas" name="opx-pas"/>
