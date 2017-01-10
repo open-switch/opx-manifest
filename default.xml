@@ -44,7 +44,7 @@
   <project path="opx-sdi-api" name="opx-sdi-api"/>
   <project path="opx-sdi-device-drivers" name="opx-sdi-device-drivers"/>
   <project path="opx-sdi-sys" name="opx-sdi-sys"/>
-  <project path="opx-sdi-sys-vm" name="opx-sdi-sys-vm" remote="stash" groups="notdefault"/>
+  <project path="opx-sdi-sys-vm" name="opx-sdi-sys-vm"/>
   <project path="opx-sdi-framework" name="opx-sdi-framework"/>
 
   <!-- The following section is for the remaining miscellaneous packages -->
