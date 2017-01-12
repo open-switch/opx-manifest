@@ -25,6 +25,7 @@
   <project path="opx-nas-l3" name="opx-nas-l3"/>
   <project path="opx-nas-ndi" name="opx-nas-ndi"/>
   <project path="opx-nas-ndi-api" name="opx-nas-ndi-api"/>
+  <project path="opx-nas-platform-s6000" name="opx-nas-platform-s6000"/>
   <project path="opx-nas-platform-vm" name="opx-nas-platform-vm"/>
   <project path="opx-nas-qos" name="opx-nas-qos"/>
 
