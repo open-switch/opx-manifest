@@ -49,5 +49,8 @@
 
   <!-- The following section is for the remaining miscellaneous packages -->
   <project path="opx-tmpctl" name="opx-tmpctl"/>
+  
+   <!-- The following section is for build tools and scripts -->
+  <project path="opx-build" name="opx-build"/>
 
 </manifest>
