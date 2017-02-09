@@ -4,53 +4,52 @@
   <default remote="opx" sync-j="4"/>
 
   <!-- The following section is for platform-specific configuration files-->
-  <project path="opx-platform-config" name="opx-platform-config"/>
+  <project name="opx-platform-config"/>
   
   <!-- The following section is for infrastructure and libraries-->
-  <project path="opx-common-utils" name="opx-common-utils"/>
-  <project path="opx-cps" name="opx-cps"/>
-  <project path="opx-db-sql" name="opx-db-sql"/>
-  <project path="opx-logging" name="opx-logging"/>
+  <project name="opx-common-utils"/>
+  <project name="opx-cps"/>
+  <project name="opx-db-sql"/>
+  <project name="opx-logging"/>
 
   <!-- The following section is for API model definitions -->
-  <project path="opx-base-model" name="opx-base-model"/>
+  <project name="opx-base-model"/>
 
   <!-- The following section is for all networking related functions including ACLs, QoS, etc.. -->
-  <project path="opx-nas-acl" name="opx-nas-acl"/>
-  <project path="opx-nas-common" name="opx-nas-common"/>
-  <project path="opx-nas-daemon" name="opx-nas-daemon"/>
-  <project path="opx-nas-interface" name="opx-nas-interface"/>
-  <project path="opx-nas-l2" name="opx-nas-l2"/>
-  <project path="opx-nas-l3" name="opx-nas-l3"/>
-  <project path="opx-nas-ndi" name="opx-nas-ndi"/>
-  <project path="opx-nas-ndi-api" name="opx-nas-ndi-api"/>
-  <project path="opx-nas-platform-s6000" name="opx-nas-platform-s6000"/>
-  <project path="opx-nas-platform-vm" name="opx-nas-platform-vm"/>
-  <project path="opx-nas-qos" name="opx-nas-qos"/>
+  <project name="opx-nas-acl"/>
+  <project name="opx-nas-common"/>
+  <project name="opx-nas-daemon"/>
+  <project name="opx-nas-interface"/>
+  <project name="opx-nas-l2"/>
+  <project name="opx-nas-l3"/>
+  <project name="opx-nas-ndi"/>
+  <project name="opx-nas-ndi-api"/>
+  <project name="opx-nas-platform-s6000"/>
+  <project name="opx-nas-platform-vm"/>
+  <project name="opx-nas-qos"/>
 
   <!-- The following section is for the linux adaption layer - essentially the hooks allowing linux to work with the rest of the system -->
-  <project path="opx-nas-linux" name="opx-nas-linux"/>
+  <project name="opx-nas-linux"/>
 
   <!-- SAI -->
-  <project path="opx-sai-api" name="opx-sai-api"/>
-  <project path="opx-sai-common" name="opx-sai-common"/>
-  <project path="opx-sai-common-utils" name="opx-sai-common-utils"/>
-  <project path="opx-sai-vm" name="opx-sai-vm"/>
+  <project name="opx-sai-api"/>
+  <project name="opx-sai-common"/>
+  <project name="opx-sai-common-utils"/>
+  <project name="opx-sai-vm"/>
 
   <!-- The following section is for platform service configuration -->
-  <project path="opx-pas" name="opx-pas"/>
+  <project name="opx-pas"/>
 
   <!-- SDI -->
-  <project path="opx-sdi-api" name="opx-sdi-api"/>
-  <project path="opx-sdi-device-drivers" name="opx-sdi-device-drivers"/>
-  <project path="opx-sdi-sys" name="opx-sdi-sys"/>
-  <project path="opx-sdi-sys-vm" name="opx-sdi-sys-vm"/>
-  <project path="opx-sdi-framework" name="opx-sdi-framework"/>
+  <project name="opx-sdi-api"/>
+  <project name="opx-sdi-device-drivers"/>
+  <project name="opx-sdi-sys"/>
+  <project name="opx-sdi-sys-vm"/>
+  <project name="opx-sdi-framework"/>
 
   <!-- The following section is for the remaining miscellaneous packages -->
-  <project path="opx-tmpctl" name="opx-tmpctl"/>
+  <project name="opx-tmpctl"/>
   
   <!-- The following section is for build tools and scripts -->
-  <project path="opx-build" name="opx-build"/>
-
+  <project name="opx-build"/>
 </manifest>
