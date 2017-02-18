@@ -24,8 +24,6 @@
   <project name="opx-nas-l3"/>
   <project name="opx-nas-ndi"/>
   <project name="opx-nas-ndi-api"/>
-  <project name="opx-nas-platform-s6000"/>
-  <project name="opx-nas-platform-vm"/>
   <project name="opx-nas-qos"/>
 
   <!-- The following section is for the linux adaption layer - essentially the hooks allowing linux to work with the rest of the system -->
