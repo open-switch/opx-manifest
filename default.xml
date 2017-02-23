@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-  <remote name="opx" fetch="https://github.com/open-switch" revision="master"/>
+  <remote name="opx" fetch="https://github.com/open-switch" revision="master"/>   
   <default remote="opx" sync-j="4"/>
 
   <!-- The following section is for platform-specific configuration files-->
@@ -30,7 +30,7 @@
   <project name="opx-nas-linux"/>
 
   <!-- SAI -->
-  <project name="opx-sai-api"/>
+  <project path="opx-sai-api" name="SAI" revision="dell.0.94+" />  
   <project name="opx-sai-common"/>
   <project name="opx-sai-common-utils"/>
   <project name="opx-sai-vm"/>
