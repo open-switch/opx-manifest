@@ -45,6 +45,9 @@
   <project name="opx-sdi-sys-vm"/>
   <project name="opx-sdi-framework"/>
 
+  <!-- SDI implementation for Mellanox platforms -->
+  <project name="opx-mlnx-sdi-sys"/>
+
   <!-- The following section is for the remaining miscellaneous packages -->
   <project name="opx-tmpctl"/>
   
