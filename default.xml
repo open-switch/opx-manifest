@@ -1,56 +1,58 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-  <remote name="opx" fetch="https://github.com/open-switch" revision="master"/>   
-  <default remote="opx" sync-j="4"/>
+  <remote name="opx" fetch="https://git.openswitch.net" review="review.openswitch.net"/>
+  <remote name="opx-github" fetch="https://github.com/open-switch"/>
+
+  <default remote="opx" revision="master" sync-j="4"/>
 
   <!-- The following section is for platform-specific configuration files-->
-  <project name="opx-platform-config"/>
-  
+  <project path="opx-platform-config" name="opx/opx-platform-config"/>
+
   <!-- The following section is for infrastructure and libraries-->
-  <project name="opx-common-utils"/>
-  <project name="opx-cps"/>
-  <project name="opx-db-sql"/>
-  <project name="opx-logging"/>
+  <project path="opx-common-utils" name="opx/opx-common-utils"/>
+  <project path="opx-cps" name="opx/opx-cps"/>
+  <project path="opx-db-sql" name="opx/opx-db-sql"/>
+  <project path="opx-logging" name="opx/opx-logging"/>
 
   <!-- The following section is for API model definitions -->
-  <project name="opx-base-model"/>
+  <project path="opx-base-model" name="opx/opx-base-model"/>
 
   <!-- The following section is for all networking related functions including ACLs, QoS, etc.. -->
-  <project name="opx-nas-acl"/>
-  <project name="opx-nas-common"/>
-  <project name="opx-nas-daemon"/>
-  <project name="opx-nas-interface"/>
-  <project name="opx-nas-l2"/>
-  <project name="opx-nas-l3"/>
-  <project name="opx-nas-ndi"/>
-  <project name="opx-nas-ndi-api"/>
-  <project name="opx-nas-qos"/>
+  <project path="opx-nas-acl" name="opx/opx-nas-acl"/>
+  <project path="opx-nas-common" name="opx/opx-nas-common"/>
+  <project path="opx-nas-daemon" name="opx/opx-nas-daemon"/>
+  <project path="opx-nas-interface" name="opx/opx-nas-interface"/>
+  <project path="opx-nas-l2" name="opx/opx-nas-l2"/>
+  <project path="opx-nas-l3" name="opx/opx-nas-l3"/>
+  <project path="opx-nas-ndi" name="opx/opx-nas-ndi"/>
+  <project path="opx-nas-ndi-api" name="opx/opx-nas-ndi-api"/>
+  <project path="opx-nas-qos" name="opx/opx-nas-qos"/>
 
   <!-- The following section is for the linux adaption layer - essentially the hooks allowing linux to work with the rest of the system -->
-  <project name="opx-nas-linux"/>
+  <project path="opx-nas-linux" name="opx/opx-nas-linux"/>
 
   <!-- SAI -->
-  <project path="opx-sai-api" name="SAI" revision="dell.0.94+" />  
-  <project name="opx-sai-common"/>
-  <project name="opx-sai-common-utils"/>
-  <project name="opx-sai-vm"/>
+  <project path="opx-sai-api" name="SAI" revision="dell.0.94+" remote="opx-github"/>
+  <project path="opx-sai-common" name="opx/opx-sai-common"/>
+  <project path="opx-sai-common-utils" name="opx/opx-sai-common-utils"/>
+  <project path="opx-sai-vm" name="opx/opx-sai-vm"/>
 
   <!-- The following section is for platform service configuration -->
-  <project name="opx-pas"/>
+  <project path="opx-pas" name="opx/opx-pas"/>
 
   <!-- SDI -->
-  <project name="opx-sdi-api"/>
-  <project name="opx-sdi-device-drivers"/>
-  <project name="opx-sdi-sys"/>
-  <project name="opx-sdi-sys-vm"/>
-  <project name="opx-sdi-framework"/>
+  <project path="opx-sdi-api" name="opx/opx-sdi-api"/>
+  <project path="opx-sdi-device-drivers" name="opx/opx-sdi-device-drivers"/>
+  <project path="opx-sdi-sys" name="opx/opx-sdi-sys"/>
+  <project path="opx-sdi-sys-vm" name="opx/opx-sdi-sys-vm"/>
+  <project path="opx-sdi-framework" name="opx/opx-sdi-framework"/>
 
   <!-- SDI implementation for Mellanox platforms -->
-  <project name="opx-mlnx-sdi-sys"/>
+  <project name="opx-mlnx-sdi-sys" remote="opx-github"/>
 
   <!-- The following section is for the remaining miscellaneous packages -->
-  <project name="opx-tmpctl"/>
-  
+  <project path="opx-tmpctl" name="opx/opx-tmpctl"/>
+
   <!-- The following section is for build tools and scripts -->
-  <project name="opx-build"/>
+  <project path="opx-build" name="opx/opx-build"/>
 </manifest>
