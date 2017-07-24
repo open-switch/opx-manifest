@@ -32,7 +32,7 @@
   <project path="opx-nas-linux" name="opx/opx-nas-linux"/>
 
   <!-- SAI -->
-  <project path="opx-sai-api" name="SAI" revision="dell.0.96+" remote="opx-github"/>
+  <project path="opx-sai-api" name="opx/opx-sai-api"/>
   <project path="opx-sai-common" name="opx/opx-sai-common"/>
   <project path="opx-sai-common-utils" name="opx/opx-sai-common-utils"/>
   <project path="opx-sai-vm" name="opx/opx-sai-vm"/>
@@ -53,6 +53,16 @@
   <!-- The following section is for the remaining miscellaneous packages -->
   <project path="opx-tmpctl" name="opx/opx-tmpctl"/>
 
+  <!-- The alarm/LED service -->
+  <project path="opx-alarm" name="opx/opx-alarm"/>
+
+  <!-- Miscellaneous tools -->
+  <project path="opx-tools" name="opx/opx-tools"/>
+
   <!-- The following section is for build tools and scripts -->
   <project path="opx-build" name="opx/opx-build"/>
+  <project path="opx-onie-installer" name="opx/opx-onie-installer"/>
+
+  <!-- The metapackage containing all platform-independent packages -->
+  <project path="opx-core" name="opx/opx-core"/>
 </manifest>
