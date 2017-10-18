@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-  <remote name="opx" fetch="https://git.openswitch.net" review="review.openswitch.net"/>
+  <remote name="origin" fetch="https://git.openswitch.net" review="review.openswitch.net"/>
   <remote name="opx-github" fetch="https://github.com/open-switch"/>
 
-  <default remote="opx" revision="master" sync-j="4"/>
+  <default remote="origin" revision="master" sync-j="4"/>
 
   <!-- The following section is for platform-specific configuration files-->
   <project path="opx-platform-config" name="opx/opx-platform-config"/>
