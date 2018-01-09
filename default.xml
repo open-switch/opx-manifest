@@ -33,19 +33,13 @@
 
   <!-- SAI -->
   <project path="opx-sai-api" name="SAI" revision="dell.1.2+" remote="opx-github"/>
-  <project path="opx-sai-common" name="opx/opx-sai-common"/>
-  <project path="opx-sai-common-utils" name="opx/opx-sai-common-utils"/>
   <project path="opx-sai-vm" name="opx/opx-sai-vm"/>
 
   <!-- The following section is for platform service configuration -->
   <project path="opx-pas" name="opx/opx-pas"/>
 
   <!-- SDI -->
-  <project path="opx-sdi-api" name="opx/opx-sdi-api"/>
-  <project path="opx-sdi-device-drivers" name="opx/opx-sdi-device-drivers"/>
   <project path="opx-sdi-sys" name="opx/opx-sdi-sys"/>
-  <project path="opx-sdi-sys-vm" name="opx/opx-sdi-sys-vm"/>
-  <project path="opx-sdi-framework" name="opx/opx-sdi-framework"/>
 
   <!-- SDI implementation for Mellanox platforms -->
   <project name="opx-mlnx-sdi-sys" remote="opx-github"/>
