@@ -58,4 +58,6 @@
 
   <!-- The metapackage containing all platform-independent packages -->
   <project name="opx-core"/>
+
+  <project name="opx-snmp"/>
 </manifest>
