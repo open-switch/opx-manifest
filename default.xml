@@ -31,7 +31,7 @@
   <project name="opx-nas-linux"/>
 
   <!-- SAI -->
-  <project path="opx-sai-api" name="SAI" revision="dell.1.2+"/>
+  <project name="opx-sai-api" revision="dell.1.2+"/>
   <project name="opx-sai-vm"/>
 
   <!-- The following section is for platform service configuration -->
