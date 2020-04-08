@@ -21,6 +21,7 @@
   <project name="opx-nas-common"/>
   <project name="opx-nas-daemon"/>
   <project name="opx-nas-interface"/>
+  <project name="opx-nas-multicast"/>
   <project name="opx-nas-l2"/>
   <project name="opx-nas-l3"/>
   <project name="opx-nas-ndi"/>
