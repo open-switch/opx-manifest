@@ -58,4 +58,5 @@
   <project name="opx-core"/>
 
   <project name="opx-snmp"/>
+  <project name="opx-system-utils"/>
 </manifest>
